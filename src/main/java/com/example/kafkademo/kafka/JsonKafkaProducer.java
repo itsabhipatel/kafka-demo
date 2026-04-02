@@ -19,6 +19,7 @@ public class JsonKafkaProducer {
 
     public void sendMessage(User user){
         System.out.println("Printed");
+        System.out.println("from FeatureD");
         System.out.println("from featureE");
             Message<User> message = MessageBuilder
                     .withPayload(user)
