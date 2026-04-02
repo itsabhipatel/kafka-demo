@@ -19,6 +19,7 @@ public class JsonKafkaProducer {
 
     public void sendMessage(User user){
         System.out.println("Printed");
+        System.out.println("from FeatureD");
             Message<User> message = MessageBuilder
                     .withPayload(user)
             .setHeader(KafkaHeaders.TOPIC,"kafka-demo")
