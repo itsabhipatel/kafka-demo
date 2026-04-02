@@ -24,6 +24,7 @@ public class JsonKafkaProducer {
             .setHeader(KafkaHeaders.TOPIC,"kafka-demo")
                     .build();
             kafkaTemplate.send(message);
+            System.out.println("Printed");
 
         }
 
