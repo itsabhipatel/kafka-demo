@@ -10,6 +10,7 @@ public class JsonKafkaConsumer {
     @KafkaListener(topics = {"kafka-demo","kafka-demo2"}, groupId = "myGroup")
     public void consume(User msg){
         System.out.println("Consumed message from featureG: " + msg);
+        System.out.println("Consumed message from featureF: " + msg);
         System.out.println("from featureC");
     }
 }
