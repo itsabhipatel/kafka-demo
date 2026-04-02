@@ -11,6 +11,6 @@ public class JsonKafkaConsumer {
     public void consume(User msg){
         System.out.println("Consumed message from featureG: " + msg);
         System.out.println("Consumed message from featureF: " + msg);
-        System.out.println("from feature1");
+        System.out.println("from feature111111");
     }
 }
